@@ -122,7 +122,7 @@ def get_novel(query: NovelBuscaSchema):
 @app.delete(
     "/novel", tags=[novel_tag], responses={"200": NovelDelSchema, "404": ErrorSchema}
 )
-def del_novel(query: NovelBuscaSchema):
+def del_novel(query: NovelDeleteSchema):
     """Deleta uma Novel a partir do id informado.
 
     Retorna uma mensagem de confirmação da remoção.

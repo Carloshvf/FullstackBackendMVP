@@ -3,6 +3,7 @@ from schemas.novel import (
     NovelBuscaSchema,
     NovelViewSchema,
     NovelUpdateSchema,
+    NovelDeleteSchema,
     ListagemNovelsSchema,
     NovelDelSchema,
     apresenta_novels,

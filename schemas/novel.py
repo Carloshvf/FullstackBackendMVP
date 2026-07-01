@@ -17,12 +17,16 @@ class NovelBuscaSchema(BaseModel):
     """ Define como deve ser a estrutura que representa a busca """
     titulo: Optional[str] = None
     autor: Optional[str] = None
-    id: Optional[int] = None
 
 
 class ListagemNovelsSchema(BaseModel):
     """ Define como uma listagem de novels será retornada """
     novels: List[NovelSchema]
+
+
+class NovelDeleteSchema(BaseModel):
+    """ Define como deve ser a estrutura para deletar uma novel """
+    id: int
 
 
 class NovelDelSchema(BaseModel):
