@@ -47,7 +47,7 @@ FullstackBackendMVP/
 **1. Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/FullstackBackendMVP.git
+git clone https://github.com/Carloshvf/FullstackBackendMVP.git
 cd FullstackBackendMVP
 ```
 
